@@ -1,0 +1,19 @@
+{
+  "name": "cucumber-step-definitions",
+  "version": "0.0.0",
+  "description": "Some common cucumberjs step definitions",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jdewit/cucumber-step-definitions.git"
+  },
+  "keywords": [
+    "cucumberjs",
+    "steps",
+    "definitions"
+  ],
+  "author": "Joris de Wit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdewit/cucumber-step-definitions/issues"
+  }
+}
