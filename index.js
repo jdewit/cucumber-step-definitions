@@ -1,7 +1,8 @@
-module.exports.click = require('./lib/click');
-
-module.exports.common = require('./lib/common');
-
-module.exports.form = require('./lib/form');
-
-module.exports.should = require('./lib/should');
+module.exports = function() {
+  require('./lib/click').call(this);
+  require('./lib/common').call(this);
+  require('./lib/login').call(this);
+  require('./lib/should').call(this);
+  require('./lib/form').call(this);
+  require('./lib/window').call(this);
+};
