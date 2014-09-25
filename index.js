@@ -1,3 +1,5 @@
+global.expect = require('./lib/helper/expect');
+
 module.exports = function() {
   require('./lib/click').call(this);
   require('./lib/common').call(this);
